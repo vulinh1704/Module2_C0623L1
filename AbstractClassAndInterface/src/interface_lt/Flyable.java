@@ -47,8 +47,6 @@ class Bird implements Flyable, Animal {
     public void show() {
         Flyable.super.show();
     }
-
-    h
 }
 
 class Main {
