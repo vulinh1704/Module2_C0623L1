@@ -31,7 +31,6 @@ public class ReadAndWriteProduct {
         return products;
     }
 
-
     public void writeFile(List<Product> productList) {
         try {
             FileWriter fileWriter = new FileWriter(file);
